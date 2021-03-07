@@ -136,35 +136,33 @@ SOFTWARE.
 }
 
 
-.x-between-start {
+.x-apart-start {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.x-between-center {
+.x-apart-center {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.x-between-end {
+.x-apart-end {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-.x-between-stretch {
+.x-apart-stretch {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
 }
-
-
 
 .y-start-start {
     display: flex;
@@ -280,29 +278,28 @@ SOFTWARE.
     align-items: stretch;
 }
 
-
-.y-between-start {
+.y-apart-start {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.y-between-center {
+.y-apart-center {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.y-between-end {
+.y-apart-end {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-.y-between-stretch {
+.y-apart-stretch {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
