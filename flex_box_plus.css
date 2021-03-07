@@ -1,3 +1,4 @@
+/***
 MIT License
 
 Copyright (c) 2021 Jerome Saltmarsh
@@ -19,87 +20,86 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+ */
 
-
-.h-start-start {
+.x-start-start {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
-.h-start-center {
+.x-start-center {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 }
 
-.h-start-end {
+.x-start-end {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
 }
 
-.h-start-stretch {
+.x-start-stretch {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: stretch;
 }
 
-
-.h-center-start {
+.x-center-start {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
 }
 
-.h-center-center {
+.x-center-center {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.h-center-end {
+.x-center-end {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
 }
 
-.h-center-stretch {
+.x-center-stretch {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
 }
 
-.h-end-start {
+.x-end-start {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-start;
 }
 
-.h-end-center {
+.x-end-center {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
 }
 
-.h-end-end {
+.x-end-end {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
-.h-end-stretch {
+.x-end-stretch {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -107,28 +107,28 @@ SOFTWARE.
 }
 
 
-.h-even-start {
+.x-even-start {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
 }
 
-.h-even-center {
+.x-even-center {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.h-even-end {
+.x-even-end {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-end;
 }
 
-.h-even-stretch {
+.x-even-stretch {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -136,28 +136,28 @@ SOFTWARE.
 }
 
 
-.h-between-start {
+.x-between-start {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.h-between-center {
+.x-between-center {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.h-between-end {
+.x-between-end {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-.h-between-stretch {
+.x-between-stretch {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -166,28 +166,28 @@ SOFTWARE.
 
 
 
-.v-start-start {
+.y-start-start {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
-.v-start-center {
+.y-start-center {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
 
-.v-start-end {
+.y-start-end {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
 }
 
-.v-start-stretch {
+.y-start-stretch {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -195,56 +195,56 @@ SOFTWARE.
 }
 
 
-.v-center-start {
+.y-center-start {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
-.v-center-center {
+.y-center-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.v-center-end {
+.y-center-end {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
 }
 
-.v-center-stretch {
+.y-center-stretch {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
 }
 
-.v-end-start {
+.y-end-start {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
 }
 
-.v-end-center {
+.y-end-center {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
 }
 
-.v-end-end {
+.y-end-end {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
-.v-end-stretch {
+.y-end-stretch {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -252,28 +252,28 @@ SOFTWARE.
 }
 
 
-.v-even-start {
+.y-even-start {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
 }
 
-.v-even-center {
+.y-even-center {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.v-even-end {
+.y-even-end {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-end;
 }
 
-.v-even-stretch {
+.y-even-stretch {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -281,28 +281,28 @@ SOFTWARE.
 }
 
 
-.v-between-start {
+.y-between-start {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.v-between-center {
+.y-between-center {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.v-between-end {
+.y-between-end {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-.v-between-stretch {
+.y-between-stretch {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
