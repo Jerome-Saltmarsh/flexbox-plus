@@ -1,7 +1,22 @@
-## Getting Started
+## getting started
 
-FlexBoxPlus makes it easy to use flex box inside your html
+flexboxplus greatly simplifies flexboxes and keeps your code clean and readable
 
+```
+<div class="x-center-center">
+    <p>item 1</p>
+    <p>item 2</p>
+    <p>item 3</p>
+</div>
+
+<div class="y-apart-end">
+    <p>item 1</p>
+    <p>item 2</p>
+    <p>item 3</p>
+</div>
+```
+
+## arguments
 ```
 axis-main-cross
 
@@ -23,20 +38,9 @@ end
 stretch
 ```
 
-## Example
+## install
 ```
-<div class="x-center-center">
-    <p>item 1</p>
-    <p>item 2</p>
-    <p>item 3</p>
-</div>
-
-<div class="y-apart-end">
-    <p>item 1</p>
-    <p>item 2</p>
-    <p>item 3</p>
-</div>
-    
+<link rel="stylesheet" href="flex_box_plus.css">
 ```
 
 ## Ref
