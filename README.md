@@ -1,3 +1,8 @@
+## install
+```
+<link rel="stylesheet" href="flex_box_plus.css">
+```
+
 ## getting started
 
 flexboxplus greatly simplifies flexboxes and keeps your code clean and readable
@@ -36,11 +41,6 @@ start
 center
 end
 stretch
-```
-
-## install
-```
-<link rel="stylesheet" href="flex_box_plus.css">
 ```
 
 ## Ref
