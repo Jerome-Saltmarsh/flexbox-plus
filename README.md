@@ -1,9 +1,10 @@
-## install
+## Install
+Download the flex_box_plus.css and import it into your project. Then add the following to your index.html file
 ```
 <link rel="stylesheet" href="flex_box_plus.css">
 ```
 
-## getting started
+## Example
 ```
 <div class="x-center-center">
     <p>item 1</p>
