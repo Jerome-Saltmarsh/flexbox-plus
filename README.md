@@ -4,9 +4,6 @@
 ```
 
 ## getting started
-
-flexboxplus greatly simplifies flexboxes and keeps your code clean and readable
-
 ```
 <div class="x-center-center">
     <p>item 1</p>
@@ -23,20 +20,20 @@ flexboxplus greatly simplifies flexboxes and keeps your code clean and readable
 
 ## arguments
 ```
-axis-main-cross
+<axis>-<main>-<cross>
 
-axis
+(axis)
 x - horizontally
 y - vertically
 
-// main
+(main)
 start
 center
 end
 even
 apart
 
-// cross
+(cross)
 start
 center
 end
